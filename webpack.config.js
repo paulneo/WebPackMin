@@ -108,10 +108,34 @@ module.exports = (env) => {
      // }),
 
       new HtmlWebpackPlugin({
-        title: 'Index',
+        title: 'Apple',
         hash:true,
         filename:'index.html',
         template: './src/index.pug',
+      }),
+      new HtmlWebpackPlugin({
+        title: 'Mac',
+        hash:true,
+        filename:'mac.html',
+        template: './src/mac.pug',
+      }),
+      new HtmlWebpackPlugin({
+        title: 'iPad',
+        hash:true,
+        filename:'ipad.html',
+        template: './src/ipad.pug',
+      }),
+      new HtmlWebpackPlugin({
+        title: 'iPhone',
+        hash:true,
+        filename:'iphone.html',
+        template: './src/iphone.pug',
+      }),
+      new HtmlWebpackPlugin({
+        title: 'Watch',
+        hash:true,
+        filename:'watch.html',
+        template: './src/watch.pug',
       }),
 
       new ExtractTextPlugin("style/style.css"),
