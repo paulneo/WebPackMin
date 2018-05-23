@@ -25,3 +25,31 @@ a{
   align-items: center;
   justify-content: space-around;
 }
+.imgApple{
+  max-width: 60%;
+}
+.appleContent{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center
+}
+.backgroundContentApple{
+  background: #fafafa;
+  margin-bottom: 20px;
+}
+.ipadTexts{
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.title{
+  font-size: 75px;
+  font-weight: bold;
+  color: #393939;
+  margin: 50px 0px 10px;
+}
+.subTitle{
+  color: #393939;
+  font-size: 40px;
+}

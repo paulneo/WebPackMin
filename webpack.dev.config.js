@@ -48,7 +48,7 @@ module.exports={
             limit: 1000000,
             fallback: 'url-loader',
             name: 'images/[name].[ext]',
-            publicPath:'../',
+            publicPath:'./',
           }
         }
       },

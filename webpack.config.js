@@ -73,7 +73,7 @@ module.exports = (env) => {
               limit: 10000,
               fallback: 'url-loader',
               name: 'images/[name].[ext]',
-              publicPath:'../',
+              publicPath:'./',
 
             }
           }
