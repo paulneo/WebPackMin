@@ -79,4 +79,22 @@ a {
     color: #393939;
     font-size: 40px;
     margin: 60px 0;
+    font-weight: bold;
+}
+.subTitleItemIpad{
+       color: #393939;
+    font-size: 50px;
+    margin: 60px 0;
+    font-weight: bold; 
+}
+.contentItemiPad{
+    display: flex;
+    justify-content: center;
+ flex-wrap: wrap;
+}
+.itemIpad{
+    text-align: center;
+    background: #fafafa;
+    margin: 40px 53px;
+    padding: 40px;
 }
