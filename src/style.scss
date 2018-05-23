@@ -1,55 +1,65 @@
-body{
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
-.container{
-  max-width: 950px;
-  margin: 0 auto
+
+.container {
+    max-width: 950px;
+    margin: 0 auto
 }
-.mainContent{
-  height: 40px;
-  width: 100%;
-  background: #393939;
+
+.mainContent {
+    height: 40px;
+    width: 100%;
+    background: #393939;
 }
-.textMain{
-  color: #fff;
-  font-weight: 300;
+
+.textMain {
+    color: #fff;
+    font-weight: 300;
 }
-.main{
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+
+.main {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.imgApple{
-  max-width: 60%;
+
+.imgApple {
+    max-width: 60%;
 }
-.appleContent{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center
+
+.appleContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
 }
-.backgroundContentApple{
-  background: #fafafa;
-  margin-bottom: 20px;
+
+.backgroundContentApple {
+    background: #fafafa;
+    margin-bottom: 20px;
 }
-.ipadTexts{
-  max-width: 600px;
-  text-align: center;
-  margin: 0 auto;
+
+.ipadTexts {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
 }
-.title{
-  font-size: 75px;
-  font-weight: bold;
-  color: #393939;
-  margin: 50px 0px 10px;
+
+.title {
+    font-size: 75px;
+    font-weight: bold;
+    color: #393939;
+    margin: 50px 0px 10px;
 }
-.subTitle{
-  color: #393939;
-  font-size: 40px;
+
+.subTitle {
+    color: #393939;
+    font-size: 40px;
 }
