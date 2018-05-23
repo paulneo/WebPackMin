@@ -85,7 +85,7 @@ a {
        color: #393939;
     font-size: 50px;
     margin: 60px 0;
-    font-weight: bold; 
+    font-weight: bold;
 }
 .contentItemiPad{
     display: flex;
@@ -97,4 +97,33 @@ a {
     background: #fafafa;
     margin: 40px 53px;
     padding: 40px;
+}
+
+
+
+// Tablets en horizonal y escritorios normales
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+
+}
+
+
+
+
+ // Móviles en horizontal o tablets en vertical
+
+@media (max-width: 767px) {
+
+
+}
+
+
+
+
+
+// Móviles en vertical
+
+@media (max-width: 480px) {
+  
 }
