@@ -46,6 +46,22 @@ a {
     margin-bottom: 10px;
 }
 
+.nike {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 150px 0 150px;
+}
+
+.dwatch {
+    flex-direction: row;
+}
+
+.sdwatch {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+
 .ipadTexts {
     max-width: 600px;
     text-align: center;
