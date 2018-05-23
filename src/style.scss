@@ -15,6 +15,13 @@ a{
   width: 100%;
   background: #393939;
 }
-.colorMain{
+.textMain{
   color: #fff;
+  font-weight: 300;
+}
+.main{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
