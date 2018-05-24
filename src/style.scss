@@ -121,26 +121,40 @@ a {
   position: absolute;
   width: 500px;
   top: 24%;
-  .imgbackWhite{
-    color: white;
 
-  }
-  .textsImgBackiPadTitle{
-    font-size: 50px;
+}
+.imgbackWhite{
+  color: white;
 
-  }
-  .textsImgBackiPadSubtitle{
-    font-size: 30px;
+}
+.textsImgBackiPadTitle{
+  font-size: 50px;
 
-  }
-  .textsImgBackiPadParagraph{
-    font-size: 20px;
-    font-weight: 300;
-  }
-  .imgbackBlack{
-    color: black;
+}
+.textsImgBackiPadSubtitle{
+  font-size: 30px;
 
-  }
+}
+.textsImgBackiPadParagraph{
+  font-size: 20px;
+  font-weight: 300;
+}
+.imgbackBlack{
+  color: black;
+
+}
+.imgbackCenter{
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.imgBackItem{
+  height: 500px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 .itemIpad{
   background: #fafafa;
