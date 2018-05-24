@@ -5,6 +5,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const SitemapWebpackPlugin = require('sitemap-webpack-plugin').default;
+const tinypngCompress = require('webpack-tinypng-compress');
 var glob = require("glob")
 var paths = [];
 
@@ -58,7 +59,7 @@ module.exports = (env) => {
           use: ExtractTextPlugin.extract({
             fallback:'style-loader',
             use:['css-loader','sass-loader'],
-            
+
           })
         },
         {
@@ -136,6 +137,10 @@ module.exports = (env) => {
         hash:true,
         filename:'watch.html',
         template: './src/watch.pug',
+      }),
+      new tinypngCompress({
+        key:"KlvxWxqSrTpZu6GLz13tHZrckSY3T62x",
+        relativePath: path.resolve(__dirname, 'dist/images') //es una ruta relative a output.outh
       }),
 
       new ExtractTextPlugin("style/style.css"),
