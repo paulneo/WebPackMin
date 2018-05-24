@@ -76,29 +76,83 @@ a {
 }
 
 .subTitle {
-    color: #393939;
-    font-size: 40px;
-    margin: 60px 0;
-    font-weight: bold;
+  color: #393939;
+  font-size: 40px;
+  margin: 60px 0;
+  font-weight: bold;
+}
+.contain{
+  max-width: 1350px;
+  margin: 0 auto;
 }
 .subTitleItemIpad{
-       color: #393939;
-    font-size: 50px;
-    margin: 60px 0;
-    font-weight: bold;
+  color: #393939;
+  font-size: 50px;
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
 }
 .contentItemiPad{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
  flex-wrap: wrap;
+ margin-top: 60px;
+}
+.modelsIpad{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 500px;
+  align-items: center;
+  margin: 30px auto;
+  background: #fafafa;
+}
+.imgImgBackiPad{
+  position: relative;
+  margin-top: 30px;
+}
+.imgbackRigth{
+  right: 7%;
+}
+.imgbackLeft{
+  left: 7%;
+}
+.textsImgBackiPad{
+  position: absolute;
+  width: 500px;
+  top: 24%;
+  .imgbackWhite{
+    color: white;
+
+  }
+  .textsImgBackiPadTitle{
+    font-size: 50px;
+
+  }
+  .textsImgBackiPadSubtitle{
+    font-size: 30px;
+
+  }
+  .textsImgBackiPadParagraph{
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .imgbackBlack{
+    color: black;
+
+  }
 }
 .itemIpad{
-    text-align: center;
-    background: #fafafa;
-    margin: 40px 53px;
-    padding: 40px;
+  background: #fafafa;
+  padding: 50px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
+.contentPhoneOne{
+  justify-content: end !important;
+  height: 700px;
+}
 
 
 // Tablets en horizonal y escritorios normales
@@ -125,5 +179,5 @@ a {
 // Móviles en vertical
 
 @media (max-width: 480px) {
-  
+
 }
