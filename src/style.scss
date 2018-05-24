@@ -160,6 +160,16 @@ a {
 .imgback4{
   background-image: url('/images/business_large.jpg')
 }
+.imgback5{
+  background-image: url('/images/business_addit_large.jpg')
+}
+.imgback6{
+  background-image: url('/images/ar_large2.jpg')
+}
+
+.iPhoneComparate{
+  height: 100%;
+}
 .imgback{
   width: 100%;
   height: 500px;
@@ -211,6 +221,18 @@ a {
   }
 
 }
+.cityiPhoneText{
+  margin-left: 70px;
+}
+.cityiPhone{
+  justify-content: space-between;
+  height: 700px;
+}
+.airpot{
+  height: 760px;
+  justify-content: space-between;
+  background: #f2f2f2;
+}
 
 
 
@@ -251,7 +273,9 @@ a {
 
     }
   }
-
+  .cityiPhoneText{
+    margin-left: 0px;
+  }
 }
 
 
@@ -261,6 +285,7 @@ a {
 // Móviles en vertical
 
 @media (max-width: 480px) {
+
   .subTitleItemIpad{
     width: 100%;
   }
