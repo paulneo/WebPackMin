@@ -1,4 +1,4 @@
-
+0
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -58,7 +58,7 @@ module.exports = (env) => {
           use: ExtractTextPlugin.extract({
             fallback:'style-loader',
             use:['css-loader','sass-loader'],
-            publicPath:'../'
+            
           })
         },
         {

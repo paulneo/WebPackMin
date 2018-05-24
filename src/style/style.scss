@@ -108,8 +108,10 @@ a {
   background: #fafafa;
 }
 .imgImgBackiPad{
-  position: relative;
+    position : relative;
   margin-top: 30px;
+  overflow: hidden;
+  width: 100%;
 }
 .imgbackRigth{
   right: 7%;
@@ -148,33 +150,14 @@ a {
   transform: translateX(-50%);
   text-align: center;
 }
-.imgback1{
-  background-image: url('/images/ar_large.jpg')
-}
-.imgback2{
-  background-image: url('/images/ios11_do_more_large.jpg')
-}
-.imgback3{
-  background-image: url('/images/families_large.jpg')
-}
-.imgback4{
-  background-image: url('/images/business_large.jpg')
-}
-.imgback5{
-  background-image: url('/images/business_addit_large.jpg')
-}
-.imgback6{
-  background-image: url('/images/ar_large2.jpg')
-}
 
 .iPhoneComparate{
   height: 100%;
 }
 .imgback{
-  width: 100%;
+  
   height: 500px;
-  background-size: cover;
-  background-position: center;
+ 
 }
 .imgBackItem{
   height: 500px;
